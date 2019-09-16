@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/f14ab63d71.js"></script>
+<!-- date time picker darkside jquoery il -->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- jnr update  -->
+<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+<!-- slick properties  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+<script>
+  // check in
+$( function() {
+  $( "#datepicker" ).datepicker();
+} );
+//check out
+$( function() {
+  $( "#check-out" ).datepicker();
+} );
+</script>
+<!-- counter min  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+</head>
+<body>
+
+  <div class="header">
+    <div class="container py-1">
+      <div class="row">
+        <div class="col-lg-4 text-left py-sm-1 d-none d-lg-block">
+        <a href="#" class="text-small text-decoration-none ">
+        <small>
+          <span  class="font-weight-bold pr-2">Email: </span>
+          <i class="fas fa-paper-plane" aria-hidden="true"></i>
+          info@highlands.com
+        </small>
+        </a>
+        </div>
+        <div class="col-lg-4 col-md-12 text-center font-weight-bold col-12">
+          <h3 class="c-name mb-0">Highlands Lodge</h3>
+        </div>
+        <div class="col-lg-4 text-right py-md-o col-md-12 col-12 d-none d-lg-block">
+          <a href="#" class="text-small text-decoration-none">
+              <small>
+              <span class="font-weight-bold pr-2">Reservation: </span>
+              <i class="fas fa-phone-square-alt" aria-hidden="true"></i>
+              0771909951
+            </small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="landing">
+  <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="container">
+            <ul class="navbar-nav d-flex justify-content-between text-center">
+                <li class="nav-item ">
+                  <a class="nav-link px-0 border-md-bottom" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-0" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-0" href="#">Our Rooms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-0" href="#">Our Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link px-0" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0" href="#">Conferences</a>
+                   </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link px-0" href="#">Login</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link px-0" href="#">Sign Up</a>
+                        </li>
+                        <li class="nav-item text-cemter">
+                            <a class="nav-link book-btn" href="#">Book Now</a>
+                      </li>
+                
+              </ul>
+        </div>
+      </div>
+    </nav>
+<!-- endn of navbar -->
+<div class="container-fluid p-0">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="height: 70vh;">
+            <img src="../img/beach-bridge-close-up-2882771.jpg" alt="Los Angeles" width="100%" style="height: 70vh;">
+            <div class="carousel-caption">
+                <h3 style="font-size: 1.5rem;">Kariba <span>Suite</span></h3>
+                <p>Spectacular Rooms</p>
+              </div>
+          </div>
+          <div class="carousel-item " style="height: 70vh;">
+            <img src="../img/beach-bright-daylight-2894490.jpg" alt="Chicago" width="100%"  style="height: 70vh;">
+            <div class="carousel-caption">
+                    <h3 style="font-size: 1.5rem;">Kariba <span>Suite</span></h3>
+                    <p>Spectacular Rooms</p>
+                  </div>
+          </div>
+          <div class="carousel-item "  style="height: 70vh;">
+            <img src="../img/agenda-blurred-background-calendar-1893424.jpg" alt="New York" width="100%" style="height: 70vh;">
+            <div class="carousel-caption">
+                    <h3 style="font-size: 1.5rem;">Kariba <span>Suite</span></h3>
+                    <p>Spectacular Rooms</p>
+                  </div>
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+</div>
+
+  </section>
+<!-- end of landing page  -->
+<!-- booking section
+ -->
+ <section id="booking-picker">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-3 col-12 px-1 py-2">
+           <input type="text" id="datepicker" placeholder="Check-In" class="date-time">
+       </div>
+       <div class="col-md-3 col-12 px-1 py-2">
+          <input type="text" id="check-out" placeholder="Check-Out" class="date-time">
+       </div>
+       <div class="col-md-2 px-1 py-2">
+        <select name="salutation" id="salutation" class="date-time-o">
+          <option disabled selected>Adults</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+       </div>
+       <div class="col-md-2 px-1 py-2">
+        <select name="salutation" id="salutation" class="date-time-o">
+          <option disabled selected>Children</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+       </div>
+       <div class="col-md-2 px-1 py-2 ">
+         <a href="#" class="btn-search text-decoration-none">Check Available</a>
+       </div>
+       <div class="dropdown-divider"></div>
+     </div>
+   </div>
+ </section>
+ <!-- end booking section -->
+
+
+
+
+ <!-- single property -->
+<section class="room-properties pt-4">
+        <div class="heading-section text-center ">
+                <h3 >Welcome to Kariba</h3>
+                <p  class="font-weight-light">Let us take you into a journey in one of zimbabwe's wonders</p>
+              </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="card">
+                            <div class="top-section">
+                              <img id="image-container" src="../img/apartment-decors-design-700549.jpg" alt="" class="img-fluid">
+                              <div class="nav responsive">
+                                <img onclick="change_img(this)" src="../img/bed-bedroom-cozy-164595.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bed-bedroom-furniture-279746.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bathroom-cabinet-contemporary-1571462.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bed-bedroom-cozy-164595.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bed-bedroom-furniture-279746.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bathroom-cabinet-contemporary-1571462.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bed-bedroom-cozy-164595.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bed-bedroom-furniture-279746.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bathroom-cabinet-contemporary-1571462.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bed-bedroom-cozy-164595.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bed-bedroom-furniture-279746.jpg" alt="">
+                                <img onclick="change_img(this)" src="../img/bathroom-cabinet-contemporary-1571462.jpg" alt="">
+                              </div>
+                              
+                            </div>
+                          </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- another section
+ -->
+
+ <div class="services-room mt-3">
+     <div class="container">
+         <div class="row">
+                <div class="col-md-8">
+                        <div class="border-description">
+                            <h2>Description</h2>
+                            <div class="dropdown-divider"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, et dignissimos quasi recusandae tenetur, dicta earum nostrum saepe, sunt animi quos sed. Facere fugiat maxime voluptatum doloribus, quo laboriosam vero.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, et dignissimos quasi recusandae tenetur, dicta earum nostrum saepe, sunt animi quos sed. Facere fugiat maxime voluptatum doloribus, quo laboriosam vero.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, et dignissimos quasi recusandae tenetur, dicta earum nostrum saepe, sunt animi quos sed. Facere fugiat maxime voluptatum doloribus, quo laboriosam vero.</p>
+                           
+                        </div>
+                        <div class="border-overview">
+                            <h2>Rooms Services</h2>
+                            <div class="dropdown-divider"></div>
+                                <div class=" icons">
+                                        <div><small> <i class="fas fa-globe-africa"></i>AirConditioning</small></div>
+                                        <div><small><i class="fas fa-bed"></i>Wifi</small></div>
+                                        <div><small><i class="fas fa-bath"></i>Cable Tv</small></div>
+                                        
+                                      </div>
+                                      <div class=" icons">
+                                            <div><small> <i class="fas fa-globe-africa"></i>Service 24/7</small></div>
+                                            <div><small><i class="fas fa-bed"></i>Free Drinks</small></div>
+                                            <div><small><i class="fas fa-bath"></i>Quality Meals</small></div>
+                                            
+                                          </div>
+                                      
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="border-description book-picking">
+                                <h2>Pricing & Booking</h2>
+                                <div class="dropdown-divider"></div>
+                            <div class="d-flex justify-content-between" >
+                                <p class="muted">Price</p>
+                                <p class="muted">$50</p>
+                            </div>
+                            <div class=" col-12 px-1 py-2">
+                                    <input type="text" id="datepicker" placeholder="Check-In" class="date-time">
+                                </div>
+                                <div class=" col-12 px-1 py-2">
+                                   <input type="text" id="check-out" placeholder="Check-Out" class="date-time">
+                                </div>
+                                <div class=" px-1 py-2">
+                                 <select name="salutation" id="salutation" class="date-time-o">
+                                   <option disabled selected>Adults</option>
+                                   <option>1</option>
+                                   <option>2</option>
+                                   <option>3</option>
+                                   <option>4</option>
+                                   <option>5</option>
+                                 </select>
+                                </div>
+                                <div class=" px-1 py-2">
+                                 <select name="salutation" id="salutation" class="date-time-o">
+                                   <option disabled selected>Children</option>
+                                   <option>1</option>
+                                   <option>2</option>
+                                   <option>3</option>
+                                   <option>4</option>
+                                   <option>5</option>
+                                 </select>
+                                </div>
+                                <div class=" px-1 py-2 ">
+                                  <a href="#" class="btn-search text-decoration-none">Book</a>
+                                </div>
+                        </div>
+                    </div>
+                  <div class="col-md-8">
+                        <div class="border-overview">
+                                <h2>Reviews</h2>
+                                <div class="dropdown-divider"></div>
+                                <div class="reviews">
+                                        <div class="form-group ">
+                                                <label for="exampleInputText">Give us a comment</label>
+                                               <textarea  class="form-control" placeholder="We would love to get feedback from our customers"></textarea> 
+                                        </div>
+                                 <a href="#">Send Review</a>
+                                </div>
+                        </div>
+                  </div>
+         </div>
+     </div>
+ </div>
+
+
+ <!-- other rooosm to see -->
+ <section class="h-room pt-3">
+        <div class="heading-section text-center ">
+          <h3 >Accomodation</h3>
+          <p  class="font-weight-light">Other rooms related rooms</p>
+        </div>
+                <div class="container">
+                   
+                       <div class="c-room">
+                           <div class="row">
+                           <div class="col-md-4">
+                            <div class="card shadow mt-1 " style="width: 100%;">
+                                    <img src="../img/bed-bedroom-furniture-279746.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body pt-0 c-body">
+                                        <div class="inline-block text-center">
+                                            <i class="ion-md-star"></i>
+                                            <i class="ion-md-star"></i>
+                                            <i class="ion-md-star"></i>
+                                            <i class="ion-md-star"></i>
+                                            <i class="ion-md-star-outline"></i>
+                                        </div>
+                                            <div class="d-flex justify-content-center">
+                                                <h4 class="font-weight-bolder card-title">Kariba Suite</h4>
+                                            </div>
+                                           <div class="text-center">
+                                              <a href="#" class="view">View</a>
+                                           </div>
+                                        </div>
+                                </div>
+                            </div>
+      
+      
+                            <div class="col-md-4">
+                                <div class="card shadow mt-1 " style="width: 100%;">
+                                        <img src="../img/bed-bedroom-cozy-164595.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body pt-0 c-body">
+                                            <div class="inline-block text-center">
+                                                <i class="ion-md-star"></i>
+                                                <i class="ion-md-star"></i>
+                                                <i class="ion-md-star"></i>
+                                                <i class="ion-md-star"></i>
+                                                <i class="ion-md-star-outline"></i>
+                                            </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <h4 class="font-weight-bolder card-title">Kariba Suite</h4>
+                                                </div>
+                                               <div class="text-center">
+                                                  <a href="#" class="view">View</a>
+                                               </div>
+                                            </div>
+                                    </div>
+                                </div>
+      
+      
+      
+                                <div class="col-md-4">
+                                    <div class="card shadow mt-1 " style="width: 100%;">
+                                            <img src="../img/bed-bedroom-furniture-279746.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body pt-0 c-body">
+                                                <div class="inline-block text-center">
+                                                    <i class="ion-md-star"></i>
+                                                    <i class="ion-md-star"></i>
+                                                    <i class="ion-md-star"></i>
+                                                    <i class="ion-md-star"></i>
+                                                    <i class="ion-md-star-outline"></i>
+                                                </div>
+                                                    <div class="d-flex justify-content-center">
+                                                        <h4 class="font-weight-bolder card-title">Kariba Suite</h4>
+                                                    </div>
+                                                   <div class="text-center">
+                                                      <a href="#" class="view">View</a>
+                                                   </div>
+                                                </div>
+                                        </div>
+                                    </div>
+
+      
+                        </div>
+                   </div>
+                </div>
+      </section>
+  <!-- footer section -->
+  <footer id="footer">
+      <div >
+        <div class="container">
+          <div class="f-width">
+            <div class="row">
+              <div class="col-md-3">
+                <h3>Highland<span>Lodge</span></h3>
+                <div class="vertical-line"></div>
+                <p>Lorem ipsum, dolor sit amet consect pisicing elit.</p>
+                <div class="inline-block text-center socials">
+                  <a href="#"><i class="fab fa-facebook-square px-2" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fab fa-twitter-square  px-2" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fab fa-instagram  px-2" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fab fa-github  px-2" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                  <h3>Working <span>hours</span></h3>
+                  <div class="vertical-line"></div>
+                  <p>
+                    <small><i class="far fa-clock "></i>Monday - Saturday 8am - 5pm</small>
+                  </p>
+              </div>
+              <div class="col-md-3">
+                  <h3>Contact <span>Us</span></h3>
+                  <div class="vertical-line"></div>
+                  <p>
+                    <small>603 Barbara House, 6th Floor, Cnr Takawira & N.Mandela, Harare , Zimbabwe </small>
+                    <br>
+                    <small><i class="far fa-paper-plane"></i>info@africanscity.com</small>
+                    <br>
+                    <small><i class="fas fa-phone-alt"></i>0771909951 / 09560531</small>
+                  </p>
+              </div>
+              <div class="col-md-3">
+                  <h3>Our <span>Newsletter</span></h3>
+                  <div class="vertical-line"></div>
+                  <p>Get up to date, Subscribe?</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="Final-footer"><p class="m-0"> Rights Reserved &copy; <a href="www.globtorch.com">Highlands Lodge 2019.  </a>  Designed by<a href="www.oneclick.com"> OneClickSolution</a> </p></div>
+    </footer>
+
+
+<script>
+  jQuery(document).ready(function($) {
+      $('.num').counterUp({
+        delay: 10,
+        time: 1000,
+      });
+    });
+  </script>
+          <!-- slick carousel darkside -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slick-testimonial').slick({
+    });
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.center').slick({
+  centerMode: true,
+  slidesToShow: 7,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+  });
+</script>
+<!-- image selection property -->
+<script type="text/javascript">
+    var container = document.getElementById("image-container");
+    function change_img(image) {
+      container.src = image.src;
+    }
+  </script>
+<!-- selection remove -->
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick-testimonial').slick({
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('.responsive').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 7,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+            });
+    });
+  </script>
+  <!-- image selection property -->
+
+<script src="../js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
