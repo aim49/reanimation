@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato:300,400,700,900|Open+Sans+Condensed:300,700|Roboto:400,700,900&display=swap');
+
+/*Created by onlicksolutions */
+
 *{
   padding: 0;
   margin: 0;
@@ -805,3 +808,72 @@ padding-right: .5rem;
     text-align: center;
     border: 2px solid #3a3e98;
   }
+/* created by teh darkside */
+  /* aobout us page darkside */
+  #about-us-page{
+    padding: 5rem 0;
+  }
+  #about-us-page .img-lock img{
+    height: 350px;
+    width: 300px;
+    border: 5px solid white;
+  }
+  #about-us-page .img-lock {
+    width: 100%;
+    text-align: center;
+  }
+
+
+  #about-us-page .about-text{
+    padding: 2.5rem 2rem;
+    text-align: center;
+  }
+  #about-us-page .about-text h4{
+    color: #3a3e98;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 2rem;
+  }
+
+  #about-us-page .about-text p{
+    color: gray;
+    font-weight: 300;
+  }
+
+
+  /* events counters */
+#upcoming-events{
+  position: relative;
+  margin: 3rem 0;
+}
+#upcoming-events  .cards{
+  margin-top: 3rem;
+}
+#upcoming-events img{
+  height: 250px;
+  width: 100%;
+}
+
+#upcoming-events .texts{
+  padding: 2rem;
+}
+#upcoming-events .texts h4{
+  color: #3a3e98;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+#upcoming-events .texts p{
+  color: gray;
+}
+
+#upcoming-events .date-update{
+  padding: .5rem 5rem .5rem .5rem;
+  background-color: #3a3e98;
+  color: white!important;
+}
+#upcoming-events  .cards:hover img{
+  transition: ease-in .5s;
+  filter: grayscale(1);
+}
