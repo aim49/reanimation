@@ -849,6 +849,7 @@ padding-right: .5rem;
 }
 #upcoming-events  .cards{
   margin-top: 3rem;
+  box-shadow: 1px 1px 5px #3a3e98;
 }
 #upcoming-events img{
   height: 250px;
@@ -872,8 +873,12 @@ padding-right: .5rem;
   padding: .5rem 5rem .5rem .5rem;
   background-color: #3a3e98;
   color: white!important;
+  font-weight: 300;
 }
 #upcoming-events  .cards:hover img{
   transition: ease-in .5s;
   filter: grayscale(1);
+}
+.page-num .page-link, .page-num .page-link{
+  color: #3a3e98;
 }
