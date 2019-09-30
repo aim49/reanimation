@@ -884,3 +884,75 @@ padding-right: .5rem;
 .page-num .page-link, .page-num .page-link{
   color: #3a3e98;
 }
+/* contact details from section */
+.c-contact-form{
+	padding: 4rem 0;
+}
+
+.form-spacing{
+	padding-top: 3rem;
+}
+.feedback-input {
+	color:white;
+	font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: transparent;
+	border:2px solid #3a3e98;
+	transition: all 0.3s;
+	padding: .8rem;
+	margin-bottom: 15px;
+	width:100%;
+	box-sizing: border-box;
+	outline:0;
+  }
+  
+  .feedback-input:focus {
+	   border:2px solid #3a3e98; }
+  
+  textarea {
+	height: 150px;
+	line-height: 150%;
+	resize:vertical;
+  }
+  
+  [type="submit"] {
+	width: 100%;
+	background:#3a3e98;
+	border-radius:0;
+	border:0;
+	cursor:pointer;
+	color:white;
+	font-size:.8rem;
+	padding-top:.5rem;
+	padding-bottom:.5rem;
+	transition: all 0.3s;
+	margin-top:-4px;
+	font-weight:700;
+	border: .2rem solid #3a3e98;
+  }
+  [type="submit"]:hover {
+	   background:#fff;
+	   color: #3a3e98;
+	   border: .2rem solid #3a3e98;
+	 }
+
+/* contact page css */
+.icons-detail{
+	padding-top: 3rem;
+}
+.icons-detail i{
+	color: #3a3e98;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+.icons-detail p{
+	color: gray;
+}
+/* map-border */
+.map-border{
+	border-top: .5rem  solid #3a3e98;
+
+}
+/* right side form contact information */
