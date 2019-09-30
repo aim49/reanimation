@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,700|Dancing+Script|Lato:300,400,900|Open+Sans+Condensed:300|Roboto+Slab:400,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+
+    font-family: 'Lato', sans-serif;
+
+    /* font-family: 'Roboto Slab', serif;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Amiri', serif; */
+
+}
+
+:root{
+    --primary-color: #3686c9;
+    --dark-gray: #575a6c;
+    --light-green: #b5c540;
+    --text-color: #e0e2d2; 
+    --dancing-script: 'Dancing Script', cursive;
+    --amiri: 'Amiri', serif;
+}
+.primary-color{
+     color: var(--light-gray);
+}
+.bg-primary{
+    background-color: var(--primary-color)!important;
+}
+
+.text-color{
+    color: var(--text-color);
+}
+.light-blue{
+    color: lightblue;
+}
+/* header */
+header{
+    background-color: var(--light-green);
+}
+header .title{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.container .dropdown-toggle, .container .dropdown-item{
+    font-size: 0.7rem;
+}
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+/* navigation */
+.navbar-nav .nav-link{
+    font-size: -.9em;
+    color: var(--dark-gray)!important;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0 1.3em;
+}
+
+/* slidre */
+
+.site-slider .slider-one img{
+    width: 100%;
+    max-height: 75vh;
+}
+.site-slider{
+    position: relative;
+}
+.position-top{
+    position: absolute;
+    top: 45%;
+
+}
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: var(--light-green);
+    padding: .5rem 1rem;
+    border-radius: 100%;
+    color: #fff;
+    margin: 0 .5rem;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+
+}
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+opacity: 1;
+}
+.right-0{
+    right:0;
+}
+
+/* slick dots */
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+   bottom: 1%;
+}
+/* secnods slider */
+.site-slider-two{
+    position: relative;
+    height: 30%;
+
+}
+.site-slider-two .product{
+    height: 25rem;
+    position: relative;
+    overflow: hidden;
+
+}
+.site-slider-two .product img{
+    width: 90%;
+    margin: auto;
+
+}
+.site-btn .btn-span{
+    padding: 0.8rem 1.9rem;
+    border-radius: 4rem;
+    border: 1px solid var(--dark-gray);
+    background-color: white;
+    color: var(--dark-gray);
+}
+.slider-two .slick-track .product:hover span{
+    background-color: var(--primary-color);
+}
