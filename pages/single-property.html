@@ -298,16 +298,46 @@ $( function() {
                         </div>
                     </div>
                   <div class="col-md-8">
-                        <div class="border-overview">
-                                <h2>Reviews</h2>
-                                <div class="dropdown-divider"></div>
+                        <div class="border-overview text-center">
+                                <h2 class="mb-4" >Reviews</h2>
+                                <form action="">
                                 <div class="reviews">
                                         <div class="form-group ">
+                                            <div class="wrap position-relative bg-transparent">
+                                                <div class="stars">
+                                                  <label class="rate">
+                                                    <input type="radio" name="radio1" id="star1" value="star1">
+                                                    <div class="face"></div>
+                                                    <i class="far fa-star star one-star"></i>
+                                                  </label>
+                                                  <label class="rate">
+                                                    <input type="radio" name="radio1" id="star2" value="star2">
+                                                    <div class="face"></div>
+                                                    <i class="far fa-star star two-star"></i>
+                                                  </label>
+                                                  <label class="rate">
+                                                    <input type="radio" name="radio1" id="star3" value="star3">
+                                                    <div class="face"></div>
+                                                    <i class="far fa-star star three-star"></i>
+                                                  </label>
+                                                  <label class="rate">
+                                                    <input type="radio" name="radio1" id="star4" value="star4">
+                                                    <div class="face"></div>
+                                                    <i class="far fa-star star four-star"></i>
+                                                  </label>
+                                                  <label class="rate">
+                                                    <input type="radio" name="radio1" id="star5" value="star5">
+                                                    <div class="face"></div>
+                                                    <i class="far fa-star star five-star"></i>
+                                                  </label>
+                                                </div>
+                                                </div>
                                                 <label for="exampleInputText">Give us a comment</label>
                                                <textarea  class="form-control" placeholder="We would love to get feedback from our customers"></textarea> 
                                         </div>
                                  <a href="#">Send Review</a>
                                 </div>
+                              </form>
                         </div>
                   </div>
          </div>
@@ -542,7 +572,7 @@ $( function() {
     });
   </script>
   <!-- image selection property -->
-
+<script src="../js/stars.js"></script>
 <script src="../js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="../js/bootstrap.min.js"></script>
